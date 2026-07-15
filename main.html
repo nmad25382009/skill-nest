@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Nest</title>
+    <script src="scripts/auth.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#"> Skill Nest </a>
+                <input type="checkbox" id="menu toggle" hidden>
+                <label for="menu toggle" class="d-md-none fs-2 text-white">
+                    <i class="bi bi-list"></i>
+                </label>
+                <ul class="navbar-nav ms-auto mobile-menu d-none d-md-flex">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="main.html">Roadmap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="main.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="signup.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="courses">
+            <div class="container py-5">
+                <h2 class="fw-bold mb-4">courses</h2>
+                <div class="slider">
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <article class="course-card">
+                            <h3>Web Development </h3>
+                            <span class="badge bg-success">Open Now</span>
+                            <details>
+                                <summary>Days Left</summary>
+                                <p>10 Days Left</p>
+                            </details>
+                            <a href="web.html" class="btn btn-primary mt-3">View Details</a>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <article class="course-card">
+                            <h3> Python & Data Science</h3>
+                            <span class="badge bg-warning text-dark">Coming Soon</span>
+                            <details>
+                                <summary>Days Left</summary>
+                                <p>5 Days Left</p>
+                            </details>
+                            <a href="python.html" class="btn btn-primary mt-3">View Details</a>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <article class="course-card">
+                            <h3>AI & Machine Learning </h3>
+                            <span class="badge bg-primary">Open Soon</span>
+                            <details>
+                                <summary>Days Left</summary>
+                                <p>10 Days Left</p>
+                            </details>
+                            <a href="ai.html" class="btn btn-primary mt-3">View Details</a>
+                        </article>
+                    
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <article class="course-card">
+                            <h3> Mobile App Development</h3>
+                            <span class="badge bg-secondary">Closed</span>
+                            <details>
+                                <summary>Days Left</summary>
+                                <p>Registration Closed</p>
+                            </details>
+                            <a href="mobile.html" class="btn btn-primary mt-3">View Details</a>
+                        </article>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="roadmap">
+            <div class="container py-5">
+                <h2 class="fw-bold mb-4">Roadmap</h2>
+                <div class="timeline">
+                    <div class="step">
+                        <div class="circle">1</div>
+                        <div class="cardp-s">
+                            Learn HTML
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="circle">2</div>
+                        <div class="cardp-s">
+                            Learn CSS
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="circle">3</div>
+                        <div class="cardp-s">
+                            Learn python
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="circle">4</div>
+                        <div class="cardp-s">
+                            Build Your First Project
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-md-6">
+                    <h4>Skill Nest</h4>
+                    <p>Learn Today,Lead Tomorrow</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h4>Quick Links</h4>
+                    <div class="quick-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="main.html">Courses</a>
+                        <a href="signup.html">Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-2 col-md-6">
+                    <h4>Contact</h4>
+                    <p>
+                        <i class="bi bi-envelope-fill"></i>
+                        Email:nmad2538@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </body>
