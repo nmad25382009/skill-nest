@@ -17,11 +17,11 @@
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container">
                 <a class="navbar-brand text-white" href="#"> Skill Nest </a>
-                <input type="checkbox" id="menu toggle" hidden>
-                <label for="menu toggle" class="d-md-none fs-2 text-white">
+                <input type="checkbox" id="menu-toggle" hidden>
+                <label for="menu-toggle" class="d-md-none fs-2 text-white">
                     <i class="bi bi-list"></i>
                 </label>
-                <ul class="navbar-nav ms-auto mobile-menu d-none d-md-flex">
+                <ul class="navbar-nav ms-auto mobile-menu">
                     <li class="nav-item">
                         <a class="nav-link text-white" href="index.html">Home</a>
                     </li>
@@ -48,9 +48,7 @@
             <div class="container py-5">
                 <h2 class="fw-bold mb-4">courses</h2>
                 <div class="slider">
-                <div class="row g-4">
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <article class="course-card">
+                        <article class="course-card" id="course1">
                             <h3>Web Development </h3>
                             <span class="badge bg-success">Open Now</span>
                             <details>
@@ -59,9 +57,7 @@
                             </details>
                             <a href="web.html" class="btn btn-primary mt-3">View Details</a>
                         </article>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <article class="course-card">
+                        <article class="course-card" id="course2"> 
                             <h3> Python & Data Science</h3>
                             <span class="badge bg-warning text-dark">Coming Soon</span>
                             <details>
@@ -70,9 +66,7 @@
                             </details>
                             <a href="python.html" class="btn btn-primary mt-3">View Details</a>
                         </article>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <article class="course-card">
+                        <article class="course-card" id="course3">
                             <h3>AI & Machine Learning </h3>
                             <span class="badge bg-primary">Open Soon</span>
                             <details>
@@ -81,10 +75,7 @@
                             </details>
                             <a href="ai.html" class="btn btn-primary mt-3">View Details</a>
                         </article>
-                    
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <article class="course-card">
+                        <article class="course-card" id="course4">
                             <h3> Mobile App Development</h3>
                             <span class="badge bg-secondary">Closed</span>
                             <details>
@@ -93,8 +84,12 @@
                             </details>
                             <a href="mobile.html" class="btn btn-primary mt-3">View Details</a>
                         </article>
-                    </div>
                 </div>
+                <div class="slider-nav">
+                    <a href="#course1"></a>
+                    <a href="#course2"></a>
+                    <a href="#course3"></a>
+                    <a href="#course4"></a>
                 </div>
             </div>
         </section>
