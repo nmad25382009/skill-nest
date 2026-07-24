@@ -231,11 +231,17 @@ footer{
         width: 100%;
     }
     .slider{
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
+        display: flex;
+        flex-direction: column;
+        overflow-x: visible;
+        gap: 20px;
     }
     .course-card{
-        flex: 0 0 100%;
+        width: 100%;
+        flex:none;
+    }
+    .slider-nav{
+        display: none;
     }
 }
 @media (min-width:768px){
